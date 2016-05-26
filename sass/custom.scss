@@ -1,0 +1,75 @@
+//Custom Css
+
+/*Color Variables*/
+$lime: #b0eb00;
+$bright-red: #b30015;
+$dark-blue: #2a00b3;
+$deep-cerulean: #0077b3;
+$bondi-blue: #00b0b3;
+$cyan: #24fbff;
+$heliotrope: #8a7dff;
+$silver-chalice: #a6a6a6;
+$scorpion: #595959;
+$tundora: #444;
+$mine-shaft: #363636;
+$cod-gray: #111;
+
+html{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto';
+}
+
+h1{
+	color: $bright-red;
+	text-align: center;
+	margin: 0px;
+}
+
+.front{
+	height: 100vh;
+	background: url("https://pbjmarketing.com/wp-content/uploads/2015/03/website-redesign1.jpg");
+	background-size: cover;
+}
+
+.theplan{
+	height:100vh;
+	background: white;
+	padding-top:6vh;
+
+	h3{
+		font-size: 5em;
+		font-weight: lighter;
+		text-align: center;
+	}
+	p{
+		text-align: center;
+	}
+	img{
+		width: 10%;
+	}
+
+
+}
+
+.middleman{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom:6vh;
+
+}
+
+.thetable{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+span{
+	text-align: center;
+	width: 100%;
+	display: block;
+	margin-top: 0.6em;
+	font-size: .73em;
+}
