@@ -12,7 +12,7 @@ $silver-chalice: #a6a6a6;
 $scorpion: #595959;
 $tundora: #444;
 $mine-shaft: #363636;
-$cod-gray: #111;
+$black: #333333;
 
 html{
 	padding: 0px;
@@ -34,28 +34,54 @@ h1{
 
 .theplan{
 	height:100vh;
-	background: white;
+	background: lightblue;
 	padding-top:6vh;
 
 	h3{
 		font-size: 5em;
 		font-weight: lighter;
 		text-align: center;
+		color: white;
+		text-shadow: 2px 2px black;
+		margin-top: 10vh;
+		margin-bottom: 3vh;
+		transition: .5s ease-in-out;
 	}
+
+
 	p{
 		text-align: center;
 	}
 	img{
 		width: 10%;
+		min-height: 200px;
+		min-width: 200px;
+
 	}
 
+}
 
+.pure-table{
+	border: 0px solid white;
+ 	
+ 		thead{
+			background: white;
+		}
+}
+
+tbody{
+	background:#f3f3f3;
+}
+
+.pure-table td, .pure-table th{
+	border-left: 0px solid white;
 }
 
 .middleman{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding-top:2vh;
 	padding-bottom:6vh;
 
 }
